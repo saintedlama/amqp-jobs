@@ -1,0 +1,22 @@
+{
+  "name": "amqp-jobs",
+  "version": "1.0.0",
+  "description": "Minimalist abstraction layer for amqp jobs implementations",
+  "repository": "saintedlama/amqp-jobs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec test/",
+    "cover": "istanbul cover ./node_modules/mocha/bin/_mocha --report html -- --recursive -R spec"
+  },
+  "author": "Christoph Walcher <christoph.walcher@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "istanbul": "^0.3.5",
+    "mocha": "^2.1.0"
+  },
+  "dependencies": {
+    "amqp": "^0.2.0",
+    "debug": "^2.1.1"
+  }
+}
