@@ -11,12 +11,12 @@
   "author": "Christoph Walcher <christoph.walcher@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "chai": "^1.10.0",
-    "istanbul": "^0.3.5",
-    "mocha": "^2.1.0"
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.4",
+    "mocha": "^2.5.3"
   },
   "dependencies": {
-    "amqp": "^0.2.0",
-    "debug": "^2.1.1"
+    "amqp": "^0.2.6",
+    "debug": "^2.2.0"
   }
 }
