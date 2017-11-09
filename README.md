@@ -1,7 +1,7 @@
 # amqp-pubsub
 Minimalist abstraction layer for amqp jobs implementations.
 
-Not active maintained.
+**This repository is not maintained anymore**
 
 ## Installation
 
